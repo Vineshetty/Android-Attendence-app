@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.attendence">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Startpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Student" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Insertstudent" />
+        <activity android:name=".Studentlist" />
+        <activity android:name=".Facultyins" />
+        <activity android:name=".Attendlist" />
+        <activity android:name=".Checkattend" />
+        <activity android:name=".Deletenam"></activity>
+    </application>
+
+</manifest>
